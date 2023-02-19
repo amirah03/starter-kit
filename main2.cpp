@@ -621,6 +621,76 @@ void arrow(vector<vector<char>> &map_, int &x, int &y, string &direction)
 
 /*---------------------------------------------------------------------------------------------------------*/
 
+//we got errors here :(
+/* 
+void Board::board_settings(int Inputcol, int Inputrow, int InputZom)
+{
+    Board board;
+    Zombie zombie;
+    Alien alien;
+
+    char setInput;
+
+    cout << endl;
+    cout << "Please only input an odd digit for both row and column!" << endl;
+    cout << "Please enter how many column do you want => " ;
+    cin >> Inputrow ;
+    cout << endl;
+    cout << "Please enter how many row do you want => ";
+    cin >> Inputcol;
+    cout << endl;
+
+    while ((Inputrow % 2) == 0 || (Inputcol % 2) == 0 || Inputrow == 1 || Inputcol == 1)
+    {
+        cout << "As stated before, please input an odd number only for both column and row" << endl;
+        cout << "Also do remember to put sensible numbers..." << endl;
+        cout << "Please confirm your selection again" << endl;
+        board_settings(Inputcol, Inputrow, InputZom);
+    }
+
+    cout << "Next, please input how many zombie(s) that you want." << endl;
+    cout << "Zombies can only have up to 9 zombie(s) only" << endl;
+    cout << "Number of Zombie(s) that I want => ";
+    cin >> InputZom;
+
+    if (InputZom > 10 || InputZom <= 0)
+    {
+        cout << "As stated before Zombie(s) can only have from 1 to 9 zombie(s) only" << endl;
+        cout << "Please confirm your selection again" << endl;
+        board_settings(Inputcol, Inputrow, InputZom);
+    }
+
+    cout << " *--*--*--*--*--*--*--*--*--*--*--*--*--* " << endl;
+    cout << " *            BOARD SETTINGS            * " << endl;
+    cout << " *--*--*--*--*--*--*--*--*--*--*--*--*--* " << endl;
+    cout << " *                                      * " << endl;
+    cout << " *    Number of columns   : " << setw(2) << Inputcol << "          *" << endl;
+    cout << " *    Number of rows      : " << setw(2) << Inputrow << "          *" << endl;
+    cout << " *                                      * " << endl;
+    cout << " *    Number of zombie(s) : " << setw(2) << InputZom << "          *" << endl;
+    cout << " *                                      * " << endl;
+    cout << " *--*--*--*--*--*--*--*--*--*--*--*--*--* " << endl;
+
+    cout << " Do you want to change the game settings? " << endl;
+    cout << " Please type 'y' for yes and 'n' for no  => ";
+    cin >> setInput ;
+    if (setInput == 'y')
+    {
+        //InValue(Inputcol, Inputrow, InputZom);
+        board_settings(Inputcol, Inputrow, InputZom);
+    }
+    else if (setInput == 'n')
+    {
+        return;
+    }
+    else
+    {
+        cout << "Please just type the wanted input, okay?" << endl;
+        board_settings(Inputcol, Inputrow, InputZom);
+    }
+}
+*/
+
 void mainMenu();
 void Help();
 
