@@ -45,6 +45,7 @@ For example:
 3. Make the loop to play the game.
 4. Accept the instructions from the user whether to change the arrow, move the alien, help or quit.
 5. Change the arrow at user's input coordinate.
+6. Increasing and decreasing of life and attack of alien.
 
 ### Nurul Afqah Binti Ismail
 
