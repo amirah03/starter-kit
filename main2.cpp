@@ -751,11 +751,10 @@ void Game(vector<vector<char>> &map_, vector<Zombie> &zombies, int x_alien, int 
         {
             cout << "It is Zombie " << i + 1 << " turns!" << endl;
             move_zombie(board.map_, zombie.zombies, zombie.zombies[i].x, zombie.zombies[i].y, zombie.zombies[i].z);
+            board.display();
+            board.attributes(zombie.zombies);
         }
-        board.display();
-        board.attributes(zombie.zombies); 
     }
-    
 }
 
 void Help()
