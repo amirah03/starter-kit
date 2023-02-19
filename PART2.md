@@ -65,4 +65,4 @@ We faced too many kind of problems that I cannot write all of them here. Below a
 
 3. There are some instances where when we run our proggrame it says terminated. We did not know what's the solution for this error and what exactly caused the error.
 
-4. When I run my programe, runtime error occurred and then it opens up stl_vector.h files. Until now I did not understand what caused the error, and what exactly the solution.
+4. When I run my programme, runtime error occurred and then it opens up stl_vector.h files. Until now I did not understand what caused the error, and what exactly the solution.
