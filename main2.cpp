@@ -40,8 +40,8 @@ public:
 class Board
 {
 private:
-    int col_ = 7, row_ = 5;
-    int numZombie_ = 1;
+    int col_ = 9, row_ = 9;
+    int numZombie_ = 2;
 
 public:
     vector<vector<char>> map_;
