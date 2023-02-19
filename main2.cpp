@@ -770,12 +770,11 @@ void Help()
     cout << "---------------------------------------------------------------" << endl;
     cout << "||  Command      ||  Description                             ||" << endl;
     cout << "---------------------------------------------------------------" << endl;
+    cout << "||  Arrow        ||                                          ||" << endl;
+    cout << "|| -----------                                               ||" << endl; 
     cout << "||  up           ||  Alien to move up                        ||" << endl;
-    cout << "||---------------||------------------------------------------||" << endl;
     cout << "||  down         ||  Alien to move down                      ||" << endl;
-    cout << "||---------------||------------------------------------------||" << endl;
     cout << "||  left         ||  Alien to move left                      ||" << endl;
-    cout << "||---------------||------------------------------------------||" << endl;
     cout << "||  right        ||  Alien to move right                     ||" << endl;
     cout << "||---------------||------------------------------------------||" << endl;
     cout << "||  arrow        ||  Switch the direction of an arrow object ||" << endl;
